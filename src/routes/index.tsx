@@ -4,13 +4,13 @@ import { ArrowRight, Play, Calendar, Heart, Users, MapPin, Quote } from "lucide-
 import { SiteLayout } from "@/components/site/SiteLayout";
 import { SectionHeader } from "@/components/site/SectionHeader";
 import { useReveal } from "@/hooks/use-reveal";
-import heroImg from "@/assets/hero-worship.jpg";
-import pastorImg from "@/assets/pastor.jpg";
-import bibleImg from "@/assets/bible-light.jpg";
-import youthImg from "@/assets/ministry-youth.jpg";
-import kidsImg from "@/assets/ministry-kids.jpg";
-import praiseImg from "@/assets/ministry-praise.jpg";
-import couplesImg from "@/assets/ministry-couples.jpg";
+const heroImg = "/images/hero-worship.jpg";
+const pastorImg = "/images/pastor.jpg";
+const bibleImg = "/images/bible-light.jpg";
+const youthImg = "/images/ministry-youth.jpg";
+const kidsImg = "/images/ministry-kids.jpg";
+const praiseImg = "/images/ministry-praise.jpg";
+const couplesImg = "/images/ministry-couples.jpg";
 
 export const Route = createFileRoute("/")({
   component: HomePage,
