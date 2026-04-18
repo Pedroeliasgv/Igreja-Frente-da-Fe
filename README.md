@@ -1,17 +1,19 @@
-<div align="center">
-
 # ⛪ Igreja Frente da Fé
 
-<img src="public/images/hero-worship.jpg" width="100%" />
-
-### ✨ Um lugar para viver fé, propósito e transformação
+> Um site moderno, responsivo e institucional para a Igreja Frente da Fé  
+> ✨ Fé, propósito e transformação em uma experiência digital
 
 ---
 
-![React](https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react)
-![Vite](https://img.shields.io/badge/Vite-fast-purple?style=for-the-badge&logo=vite)
-![TypeScript](https://img.shields.io/badge/TypeScript-strong-blue?style=for-the-badge&logo=typescript)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-modern-06B6D4?style=for-the-badge&logo=tailwindcss)
+## ⚙️ Tecnologias utilizadas
+
+<div align="center">
+
+![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-strong-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-fast-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-modern-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-runtime-339933?style=for-the-badge&logo=node.js&logoColor=white)
 
 </div>
 
@@ -19,51 +21,31 @@
 
 ## 🙏 Sobre o projeto
 
-O site da **Igreja Frente da Fé** foi desenvolvido com o propósito de criar uma presença digital moderna, leve e inspiradora.
+O **Igreja Frente da Fé** foi desenvolvido para representar a igreja de forma moderna, leve e acessível.
 
-Aqui, visitantes encontram:
-
-- ⛪ Informações sobre a igreja
-- 🙌 Programação de cultos
-- 👨‍👩‍👧 Ministérios ativos
-- 💬 Testemunhos reais
-- 📍 Convite para visitas presenciais
-
-> “Mais que um site, uma extensão da missão da igreja.”
+O objetivo é criar uma experiência digital que conecta pessoas à fé, à comunidade e à Palavra.
 
 ---
 
-## 🚀 Tecnologias
+## ✨ Funcionalidades
 
-- ⚛️ React + TypeScript  
-- ⚡ Vite (build ultrarrápido)  
-- 🎨 Tailwind CSS  
-- 🧭 TanStack Router  
-- 🎯 Lucide Icons  
-
----
-
-## 📸 Preview
-
-<div align="center">
-
-<img src="public/images/hero-worship.jpg" width="90%" />
-<br/>
-<img src="public/images/ministry-youth.jpg" width="45%" />
-<img src="public/images/ministry-kids.jpg" width="45%" />
-
-</div>
+- ⛪ Apresentação institucional da igreja  
+- 📅 Programação de cultos  
+- 👨‍👩‍👧 Ministérios organizados  
+- 💬 Testemunhos da comunidade  
+- 📍 Informações para visitantes  
+- 🎥 Integração com cultos online  
 
 ---
 
-## 📁 Estrutura
+## 📁 Estrutura do projeto
 
 ```bash
 public/
- └── images/        # imagens do site (hero, pastores, ministérios)
+  images/        # imagens do site
 
 src/
- ├── components/    # componentes reutilizáveis
- ├── routes/        # páginas do site
- ├── hooks/         # hooks personalizados
- ├── styles/        # estilos globais
+  components/    # componentes reutilizáveis
+  routes/        # páginas
+  hooks/         # hooks personalizados
+  styles/        # estilos globais
