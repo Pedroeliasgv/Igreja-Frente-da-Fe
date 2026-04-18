@@ -6,7 +6,7 @@ import { SectionHeader } from "@/components/site/SectionHeader";
 import { useReveal } from "@/hooks/use-reveal";
 const heroImg = "/images/hero-worship.jpg";
 const pastorImg = "/images/pastor.jpg";
-const bibleImg = "/images/bible-light.jpg";
+const bibleImg = "/images/church-interior.jpg";
 const youthImg = "/images/ministry-youth.jpg";
 const kidsImg = "/images/ministry-kids.jpg";
 const praiseImg = "/images/ministry-praise.jpg";

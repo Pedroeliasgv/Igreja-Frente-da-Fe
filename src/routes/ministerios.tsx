@@ -3,7 +3,6 @@ import { SiteLayout } from "@/components/site/SiteLayout";
 import { SectionHeader } from "@/components/site/SectionHeader";
 import { useReveal } from "@/hooks/use-reveal";
 
-// ✔ agora vindo do /public/images (SEM IMPORT)
 const youthImg = "/images/ministry-youth.jpg";
 const kidsImg = "/images/ministry-kids.jpg";
 const praiseImg = "/images/ministry-praise.jpg";

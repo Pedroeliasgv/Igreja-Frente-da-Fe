@@ -4,7 +4,6 @@ import { SectionHeader } from "@/components/site/SectionHeader";
 import { useReveal } from "@/hooks/use-reveal";
 import { BookOpen, Compass, Heart } from "lucide-react";
 
-// ✔ agora tudo vem do /public/images
 const pastorImg = "/images/pastor.jpg";
 const churchImg = "/images/church-interior.jpg";
 
