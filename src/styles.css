@@ -295,3 +295,46 @@
   .animate-shimmer { animation: shimmer 3s ease-in-out infinite; }
   .animate-float { animation: float 4s ease-in-out infinite; }
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* largura da scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* trilho (fundo) */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* barra */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    rgba(212, 175, 55, 0.8),
+    rgba(120, 90, 30, 0.6)
+  );
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  transition: all 0.3s ease;
+}
+
+/* hover (efeito premium) */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 215, 100, 1),
+    rgba(180, 140, 40, 0.8)
+  );
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(212, 175, 55, 0.7) transparent;
+}

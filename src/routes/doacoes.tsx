@@ -181,7 +181,7 @@ function ContatoPage() {
             </div>
             <div className="mt-6 text-center">
               <a
-                href="https://maps.google.com/?q=Av.+Principal+1500+S%C3%A3o+Paulo"
+                href="https://www.google.com/maps?q=Av.+Andr%C3%B4meda,+885+-+Alphaville+Empresarial,+Barueri+-+SP,+06473-000&output=embed"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-6 py-3 text-sm font-semibold text-foreground transition-all hover:border-gold hover:text-gold"
